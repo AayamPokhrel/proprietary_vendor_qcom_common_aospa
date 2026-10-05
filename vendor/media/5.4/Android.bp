@@ -3,6 +3,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/xiaomi/stone",
+    ],
 }
 
 cc_prebuilt_library_shared {
